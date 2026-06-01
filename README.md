@@ -1,61 +1,80 @@
-# Todo Demo（Python / Flask）
+# 🌈✨ GH900 課程 Demo Repo ✨🌈
 
-這是一個以 **Python + Flask** 實作的簡易 Todo Demo 網站，資料只會暫存在記憶體中，重啟服務後就會清空。
+嗨嗨～歡迎來到這個超可愛、超繽紛的 Demo 倉庫！
 
-## 功能
+這個 Repo 是為了 **2026-06-01** 的 **GH900 課程** 所建立的練習空間 🧸💻
 
-- 新增 Todo
-- 檢視 Todo 清單
-- 編輯 Todo
-- 刪除 Todo
-- 切換完成 / 未完成
+---
 
-## 專案結構
+## 🗓️ 今天是什麼日子？
 
-```
-project/
-├── app.py
-├── requirements.txt
-├── templates/
-│   └── index.html
-├── static/
-│   └── style.css
-└── tests/
-    └── test_app.py
-```
+- 📅 日期：**2026-06-01**
+- 🎓 課程：**GH900**
+- 🧪 用途：**課堂 Demo / 練習 / 展示**
+- 🌟 狀態：**學習中、探索中、超有活力中！**
 
-## 快速啟動
+---
 
-### 1. 安裝套件
+## 🎀 這個 Repo 可以做什麼？
+
+在這裡你可以：
+
+- 🛠️ 測試課堂上學到的指令與流程
+- 🧠 記錄學習重點與靈感筆記
+- 🚀 快速建立小型範例來驗證想法
+- 🧩 玩玩不同功能，累積實作手感
+- 🐣 當作之後複習 GH900 的可愛基地
+
+---
+
+## 🧸 Repo 小檔案
+
+| 項目 | 說明 |
+|---|---|
+| 🏷️ Repo 名稱 | `20260601-GH900` |
+| 🌿 分支 | `demo0601` |
+| 🧭 預設分支 | `master` |
+| 💖 風格 | 多彩多姿、可可愛愛、學習感滿滿！ |
+
+---
+
+## 🎨 今日學習氣氛條
+
+- 💙 專注程度：`████████░░` 80%
+- 💛 成就感：`███████░░░` 70%（持續上升中 📈）
+
+---
+
+## 🍰 一句話總結
+
+> 這是一個為 **2026-06-01 GH900 課程** 準備的 Demo Repo，
+> 用來練習、展示、記錄學習成果，並且保持滿滿的可愛能量 ✨🐰🌸
+
+---
+
+## 🧪 附加 Demo：Python Flask Todo
+
+此 Repo 也包含一個記憶體版 Todo Web Demo（資料重啟後會清空），可用來快速展示 CRUD 流程。
+
+### 啟動方式
 
 ```bash
 pip install -r requirements.txt
-```
-
-### 2. 啟動服務
-
-```bash
 python app.py
 ```
 
-### 3. 開啟瀏覽器
+開啟 `http://127.0.0.1:5000/todos`。
 
-前往：
-
-```text
-http://127.0.0.1:5000/todos
-```
-
-## API 路由
-
-- `GET /todos`：取得 Todo 頁面
-- `POST /todos`：新增 Todo
-- `POST /todos/<id>/edit`：編輯 Todo
-- `POST /todos/<id>/delete`：刪除 Todo
-- `POST /todos/<id>/toggle`：切換完成狀態
-
-## 測試
+### 測試方式
 
 ```bash
 python -m unittest discover -s tests -v
 ```
+
+---
+
+## 🙌 Happy Coding!
+
+祝今天課程順順利利、靈感滿滿、Bug 都乖乖退散！
+
+`Let's learn, build, and shine!` 🌟👩‍💻👨‍💻🦄
