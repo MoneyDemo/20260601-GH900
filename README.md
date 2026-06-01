@@ -52,6 +52,27 @@
 
 ---
 
+## 🧪 附加 Demo：Python Flask Todo
+
+此 Repo 也包含一個記憶體版 Todo Web Demo（資料重啟後會清空），可用來快速展示 CRUD 流程。
+
+### 啟動方式
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+開啟 `http://127.0.0.1:5000/todos`。
+
+### 測試方式
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+---
+
 ## 🙌 Happy Coding!
 
 祝今天課程順順利利、靈感滿滿、Bug 都乖乖退散！
